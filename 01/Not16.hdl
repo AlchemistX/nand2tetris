@@ -14,4 +14,20 @@ CHIP Not16 {
 
     PARTS:
     // Put your code here:
+    Nand(a=in[00], b=in[00], out=out[00]);
+    Nand(a=in[01], b=in[01], out=out[01]);
+    Nand(a=in[02], b=in[02], out=out[02]);
+    Nand(a=in[03], b=in[03], out=out[03]);
+    Nand(a=in[04], b=in[04], out=out[04]);
+    Nand(a=in[05], b=in[05], out=out[05]);
+    Nand(a=in[06], b=in[06], out=out[06]);
+    Nand(a=in[07], b=in[07], out=out[07]);
+    Nand(a=in[08], b=in[08], out=out[08]);
+    Nand(a=in[09], b=in[09], out=out[09]);
+    Nand(a=in[10], b=in[10], out=out[10]);
+    Nand(a=in[11], b=in[11], out=out[11]);
+    Nand(a=in[12], b=in[12], out=out[12]);
+    Nand(a=in[13], b=in[13], out=out[13]);
+    Nand(a=in[14], b=in[14], out=out[14]);
+    Nand(a=in[15], b=in[15], out=out[15]);
 }
