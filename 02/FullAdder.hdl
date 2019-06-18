@@ -14,4 +14,12 @@ CHIP FullAdder {
 
     PARTS:
     // Put you code here:
+    // sum = A XOR B XOR C
+    // carry = (A AND B) OR ((A XOR B) AND C)
+    Xor(a=a, b=b, out=O0);
+    Xor(a=c, b=O0, out=sum);
+
+    And(a=a, b=b, out=O1);
+    And(a=O0, b=c, out=O2);
+    Or(a=O1, b=O2, out=carry);
 }
